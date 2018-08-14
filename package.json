@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack",
+    "start": "http-server"
   },
   "author": "Gustavo Apolinario <gustavo.guss@gmail.com>",
   "license": "ISC",
@@ -14,8 +15,12 @@
     "thymeleaf": "^0.12.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
   }
 }
